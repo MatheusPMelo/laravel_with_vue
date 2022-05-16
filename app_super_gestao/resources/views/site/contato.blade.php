@@ -12,8 +12,8 @@
 
     <div class="informacao-pagina">
         <div class="contato-principal">
-            @component('site.layout._components.form_contato', ['classe' => 'borda-preta'])
-                <p>NÃO VAMOS TE RESPONDER</p>
+            @component('site.layout._components.form_contato', ['classe' => 'borda-preta', 'motivo_contatos' => $motivo_contatos])
+                <p>Deixe aqui sua opinião</p>
             @endcomponent
         </div>
     </div>
